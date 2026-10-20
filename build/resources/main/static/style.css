@@ -1,0 +1,9 @@
+body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+.controls { margin-bottom: 20px; display: flex; gap: 10px; }
+table { width: 100%; border-collapse: collapse; background: white; }
+th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+tr.NORMAL { background-color: #d4edda; }
+tr.HARD { background-color: #fff3cd; }
+tr.CRITICAL { background-color: #f8d7da; color: #721c24; font-weight: bold; }
+.error-box { color: red; padding: 10px; background: #fdd; border: 1px solid red; margin-bottom: 10px; }
+.card { background: white; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
